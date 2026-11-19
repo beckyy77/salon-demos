@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glamour's Touch Ladies Salon — Hair · Nails · Beauty</title>
+<style>
+:root{--brand:#3E2752;--brand-dark:#241536;--gold:#E8B05C;--ink:#2B222F;--cream:#FBF6F2;--card:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Noto Sans Ethiopic',serif;background:var(--cream);color:var(--ink);line-height:1.6}
+img{max-width:100%;display:block}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,var(--brand-dark),var(--brand));color:#fff;padding:14px 0;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+header .wrap{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:1.2rem;font-weight:700}.logo span{color:var(--gold)}
+.badge{font-size:.78rem;border:1px solid rgba(255,255,255,.45);padding:4px 12px;border-radius:20px}
+.hero{padding:54px 0 44px;text-align:center;background:radial-gradient(circle at 15% 15%, rgba(232,176,92,.15), transparent 40%),radial-gradient(circle at 85% 80%, rgba(125,60,92,.12), transparent 45%)}
+.hero h1{font-size:clamp(1.7rem,5vw,2.7rem);color:var(--brand-dark);margin-bottom:10px}
+.hero p{color:#7a6a72;max-width:600px;margin:0 auto 26px;font-size:1.05rem}
+.btn{display:inline-block;background:var(--brand);color:#fff;text-decoration:none;padding:13px 30px;border-radius:40px;font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.22);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.whatsapp{background:#1FA855;box-shadow:0 4px 14px rgba(31,168,85,.35)}
+.btn.gold{background:var(--gold);color:var(--ink)}
+section{padding:46px 0}
+h2{color:var(--brand);text-align:center;font-size:1.65rem;margin-bottom:6px}
+.sub{text-align:center;color:#9a8892;margin-bottom:30px;font-style:italic}
+.hairline{width:70px;height:3px;background:var(--gold);margin:0 auto 30px;border-radius:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 3px 14px rgba(0,0,0,.08);transition:transform .2s}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.card:hover{transform:translateY(-4px)}
+.ph{aspect-ratio:4/3;background:linear-gradient(135deg,#F0DDE6,#E2C3D2);display:flex;align-items:center;justify-content:center;color:#a98b99;font-size:.9rem}
+.card .info{padding:13px 15px}.card .info b{color:var(--brand-dark)}.card .info p{font-size:.88rem;color:#7a6a72}
+.pricelist{max-width:640px;margin:0 auto;background:var(--card);border-radius:16px;box-shadow:0 3px 14px rgba(0,0,0,.08);overflow:hidden}
+.pricelist .row{display:flex;justify-content:space-between;padding:12px 22px;border-bottom:1px solid #F3E9EE}
+.pricelist .row:last-child{border-bottom:none}
+.pricelist .row b{color:var(--brand-dark)}.pricelist .row span{color:var(--brand);font-weight:700}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;text-align:center}
+.step{background:var(--card);border-radius:14px;padding:22px 16px;box-shadow:0 3px 14px rgba(0,0,0,.08)}
+.step .n{width:40px;height:40px;border-radius:50%;background:var(--brand);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 10px;font-weight:700}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;text-align:center}
+.why div{background:var(--card);border-radius:14px;padding:20px;box-shadow:0 3px 14px rgba(0,0,0,.08)}
+.why b{color:var(--brand)}
+footer{background:var(--brand-dark);color:#ead9e2;text-align:center;padding:28px 20px;margin-top:20px}
+footer a{color:var(--gold);text-decoration:none}
+.float-wa{position:fixed;bottom:22px;right:22px;background:#1FA855;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 6px 18px rgba(31,168,85,.45);text-decoration:none;z-index:99}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="logo">✦ Glamour's Touch <span>Ladies Salon</span></div><div class="badge">Ladies only · Abu Dhabi</div></div></header>
+<section class="hero"><div class="wrap">
+<h1>Where Glamour Meets Care<br>Hair · Nails · Glow · Bridal</h1>
+<p>Abu Dhabi's ladies-only beauty destination — hair, nails, skin and bridal artistry. Book on WhatsApp, walk in like a queen.</p>
+<a class="btn whatsapp" href="https://wa.me/971501819004">💬 Book on WhatsApp</a> &nbsp;
+<a class="btn gold" href="#services">See Services &amp; Prices</a>
+<p style="margin-top:18px;font-size:1.05rem"><span style="color:var(--gold)">★★★★★</span> <b>4.9</b> from <b>163</b> Google reviews</p>
+</div></section>
+<section id="services"><div class="wrap">
+<h2>Our Services</h2><p class="sub">Everything under one roof — by ladies, for ladies.</p><div class="hairline"></div>
+<div class="grid">
+      <div class="card"><img src="photos/photo1.jpg" alt="Hair Styling & Curls" loading="lazy"><div class="info"><b>Hair Styling & Curls</b><p>Cuts, styling, coloring & treatments that turn heads.</p></div></div>
+      <div class="card"><img src="photos/photo2.jpg" alt="Nail Studio" loading="lazy"><div class="info"><b>Nail Studio</b><p>Manicure, pedicure, gel & perfect finishes.</p></div></div>
+      <div class="card"><img src="photos/photo3.jpg" alt="Nail Art & French Tips" loading="lazy"><div class="info"><b>Nail Art & French Tips</b><p>Hand-painted art, French sets & creative designs.</p></div></div>
+      <div class="card"><img src="photos/photo4.jpg" alt="Lash Extensions" loading="lazy"><div class="info"><b>Lash Extensions</b><p>Classic, hybrid & volume lashes — wake up ready.</p></div></div>
+      <div class="card"><div class="ph"><div style="font-size:2.2rem">👁️</div><div style="font-size:.8rem;opacity:.75">Threading & Brows</div></div><div class="info"><b>Threading & Brows</b><p>Threading, lamination & tinting.</p></div></div>
+      <div class="card"><div class="ph"><div style="font-size:2.2rem">👰</div><div style="font-size:.8rem;opacity:.75">Bridal & Occasions</div></div><div class="info"><b>Bridal & Occasions</b><p>Signature bridal glam, party looks & trials.</p></div></div>
+</div></div></section>
+<section style="background:#F5EBE4"><div class="wrap">
+<h2>Popular Prices</h2><p class="sub">Indicative prices — message us for today's offers.</p><div class="hairline"></div>
+<div class="pricelist">      <div class="row"><b>Wash, cut & style</b><span>AED 95</span></div>
+      <div class="row"><b>Gel nails with art</b><span>AED 110</span></div>
+      <div class="row"><b>Classic lash set</b><span>AED 150</span></div>
+      <div class="row"><b>Eyebrows & upper lip</b><span>AED 30</span></div>
+      <div class="row"><b>Bridal glam package</b><span>from AED 950</span></div></div>
+</div></section>
+<section><div class="wrap">
+<h2>Why Ladies Choose Us</h2><div class="hairline"></div>
+<div class="why">
+<div><b>🚪 Fully ladies-only</b><p>Comfortable, private, relaxed.</p></div>
+<div><b>🧼 Hygiene first</b><p>Sterilized tools, fresh towels, always.</p></div>
+<div><b>💬 Easy booking</b><p>WhatsApp us — reply in minutes.</p></div>
+</div></div></section>
+<section style="background:#F5EBE4"><div class="wrap">
+<h2>How Booking Works</h2><div class="hairline"></div>
+<div class="steps">
+<div class="step"><div class="n">1</div><b>Message us</b><p>WhatsApp the service you want.</p></div>
+<div class="step"><div class="n">2</div><b>Pick your time</b><p>We confirm your slot instantly.</p></div>
+<div class="step"><div class="n">3</div><b>Come &amp; glow</b><p>Walk in at your time — no waiting.</p></div>
+</div></div></section>
+<footer><div class="wrap">
+<p><b>Glamour's Touch Ladies Salon</b> — 32 Hifayif Street, Al Nahyan, Abu Dhabi</p>
+<p>🕐 Tue – Sun · 10:00 – 21:00 · Closed Monday</p>
+<p>💬 <a href="https://wa.me/971501819004">+971 50 181 9004</a> &nbsp;·&nbsp; 📷 @glamourstouchs</p>
+<p style="font-size:.8rem;opacity:.7">© 2026 · Website by <a href="https://truye.me">Becky Web Studio</a></p>
+</div></footer>
+<a class="float-wa" href="https://wa.me/971501819004" title="Book on WhatsApp">💬</a>
+</body></html>
